@@ -2,3 +2,25 @@
     font-family: sans-serif;
     color: green;
 }
+
+.button{
+    width: 200px;
+    height: 60px;
+
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+
+    background: linear-gradient(112deg, #70d2ff,#33beff,#33beff);
+    border-radius: 5px;
+    box-shadow: -1px 6px 30px 1px rgba(34, 60, 80, 0.14);
+
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.button:active{
+    top: 2px;
+}
